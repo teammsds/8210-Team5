@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://msdmsag5.herokuapp.com/" />
+<title>CRUD-Matches(Admin)</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">CRUD-Matches(Admin)</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>amukati@unomaha.edu</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>secret</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Administration</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Matches</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Enter New Match Details</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=m_guestid</td>
+	<td>label=School1 Team4</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=id2</td>
+	<td>label=Referee 2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=m_number</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=m_date</td>
+	<td>2016-09-08</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=m_time</td>
+	<td>13:00</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=m_score</td>
+	<td>3-3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=m_ref_com</td>
+	<td>its a draw</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=m_homeg</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=m_guestg</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Save']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'View')])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Administration</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Matches</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'Update')])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=m_time</td>
+	<td>13:01</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//input[@value='Delete'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Arti Mukati</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=li.dropdown.open &gt; ul.dropdown-menu</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Arti Mukati</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
